@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856F8FDA2123AD7100C84692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F8FD92123AD7100C84692 /* AppDelegate.swift */; };
+		856F8FDC2123AD7100C84692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F8FDB2123AD7100C84692 /* ViewController.swift */; };
+		856F8FDF2123AD7100C84692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856F8FDD2123AD7100C84692 /* Main.storyboard */; };
+		856F8FE12123AD7200C84692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856F8FE02123AD7200C84692 /* Assets.xcassets */; };
+		856F8FE42123AD7200C84692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856F8FE22123AD7200C84692 /* LaunchScreen.storyboard */; };
+		856F8FEF2123AD7200C84692 /* MinnethTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F8FEE2123AD7200C84692 /* MinnethTests.swift */; };
+		856F8FFA2123AD7200C84692 /* MinnethUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F8FF92123AD7200C84692 /* MinnethUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		856F8FEB2123AD7200C84692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856F8FCE2123AD7000C84692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856F8FD52123AD7100C84692;
+			remoteInfo = Minneth;
+		};
+		856F8FF62123AD7200C84692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856F8FCE2123AD7000C84692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856F8FD52123AD7100C84692;
+			remoteInfo = Minneth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		856F8FD62123AD7100C84692 /* Minneth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minneth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856F8FD92123AD7100C84692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		856F8FDB2123AD7100C84692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		856F8FDE2123AD7100C84692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		856F8FE02123AD7200C84692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		856F8FE32123AD7200C84692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856F8FE52123AD7200C84692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856F8FEA2123AD7200C84692 /* MinnethTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinnethTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856F8FEE2123AD7200C84692 /* MinnethTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinnethTests.swift; sourceTree = "<group>"; };
+		856F8FF02123AD7200C84692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856F8FF52123AD7200C84692 /* MinnethUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinnethUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856F8FF92123AD7200C84692 /* MinnethUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinnethUITests.swift; sourceTree = "<group>"; };
+		856F8FFB2123AD7200C84692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		856F8FD32123AD7100C84692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856F8FE72123AD7200C84692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856F8FF22123AD7200C84692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856F8FCD2123AD7000C84692 = {
+			isa = PBXGroup;
+			children = (
+				856F8FD82123AD7100C84692 /* Minneth */,
+				856F8FED2123AD7200C84692 /* MinnethTests */,
+				856F8FF82123AD7200C84692 /* MinnethUITests */,
+				856F8FD72123AD7100C84692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		856F8FD72123AD7100C84692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856F8FD62123AD7100C84692 /* Minneth.app */,
+				856F8FEA2123AD7200C84692 /* MinnethTests.xctest */,
+				856F8FF52123AD7200C84692 /* MinnethUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		856F8FD82123AD7100C84692 /* Minneth */ = {
+			isa = PBXGroup;
+			children = (
+				856F8FD92123AD7100C84692 /* AppDelegate.swift */,
+				856F8FDB2123AD7100C84692 /* ViewController.swift */,
+				856F8FDD2123AD7100C84692 /* Main.storyboard */,
+				856F8FE02123AD7200C84692 /* Assets.xcassets */,
+				856F8FE22123AD7200C84692 /* LaunchScreen.storyboard */,
+				856F8FE52123AD7200C84692 /* Info.plist */,
+			);
+			path = Minneth;
+			sourceTree = "<group>";
+		};
+		856F8FED2123AD7200C84692 /* MinnethTests */ = {
+			isa = PBXGroup;
+			children = (
+				856F8FEE2123AD7200C84692 /* MinnethTests.swift */,
+				856F8FF02123AD7200C84692 /* Info.plist */,
+			);
+			path = MinnethTests;
+			sourceTree = "<group>";
+		};
+		856F8FF82123AD7200C84692 /* MinnethUITests */ = {
+			isa = PBXGroup;
+			children = (
+				856F8FF92123AD7200C84692 /* MinnethUITests.swift */,
+				856F8FFB2123AD7200C84692 /* Info.plist */,
+			);
+			path = MinnethUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		856F8FD52123AD7100C84692 /* Minneth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856F8FFE2123AD7200C84692 /* Build configuration list for PBXNativeTarget "Minneth" */;
+			buildPhases = (
+				856F8FD22123AD7100C84692 /* Sources */,
+				856F8FD32123AD7100C84692 /* Frameworks */,
+				856F8FD42123AD7100C84692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minneth;
+			productName = Minneth;
+			productReference = 856F8FD62123AD7100C84692 /* Minneth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		856F8FE92123AD7200C84692 /* MinnethTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856F90012123AD7200C84692 /* Build configuration list for PBXNativeTarget "MinnethTests" */;
+			buildPhases = (
+				856F8FE62123AD7200C84692 /* Sources */,
+				856F8FE72123AD7200C84692 /* Frameworks */,
+				856F8FE82123AD7200C84692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856F8FEC2123AD7200C84692 /* PBXTargetDependency */,
+			);
+			name = MinnethTests;
+			productName = MinnethTests;
+			productReference = 856F8FEA2123AD7200C84692 /* MinnethTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		856F8FF42123AD7200C84692 /* MinnethUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856F90042123AD7200C84692 /* Build configuration list for PBXNativeTarget "MinnethUITests" */;
+			buildPhases = (
+				856F8FF12123AD7200C84692 /* Sources */,
+				856F8FF22123AD7200C84692 /* Frameworks */,
+				856F8FF32123AD7200C84692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856F8FF72123AD7200C84692 /* PBXTargetDependency */,
+			);
+			name = MinnethUITests;
+			productName = MinnethUITests;
+			productReference = 856F8FF52123AD7200C84692 /* MinnethUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856F8FCE2123AD7000C84692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maestro;
+				TargetAttributes = {
+					856F8FD52123AD7100C84692 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					856F8FE92123AD7200C84692 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 856F8FD52123AD7100C84692;
+					};
+					856F8FF42123AD7200C84692 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 856F8FD52123AD7100C84692;
+					};
+				};
+			};
+			buildConfigurationList = 856F8FD12123AD7000C84692 /* Build configuration list for PBXProject "Minneth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 856F8FCD2123AD7000C84692;
+			productRefGroup = 856F8FD72123AD7100C84692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				856F8FD52123AD7100C84692 /* Minneth */,
+				856F8FE92123AD7200C84692 /* MinnethTests */,
+				856F8FF42123AD7200C84692 /* MinnethUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		856F8FD42123AD7100C84692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856F8FE42123AD7200C84692 /* LaunchScreen.storyboard in Resources */,
+				856F8FE12123AD7200C84692 /* Assets.xcassets in Resources */,
+				856F8FDF2123AD7100C84692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856F8FE82123AD7200C84692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856F8FF32123AD7200C84692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856F8FD22123AD7100C84692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856F8FDC2123AD7100C84692 /* ViewController.swift in Sources */,
+				856F8FDA2123AD7100C84692 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856F8FE62123AD7200C84692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856F8FEF2123AD7200C84692 /* MinnethTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856F8FF12123AD7200C84692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856F8FFA2123AD7200C84692 /* MinnethUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		856F8FEC2123AD7200C84692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856F8FD52123AD7100C84692 /* Minneth */;
+			targetProxy = 856F8FEB2123AD7200C84692 /* PBXContainerItemProxy */;
+		};
+		856F8FF72123AD7200C84692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856F8FD52123AD7100C84692 /* Minneth */;
+			targetProxy = 856F8FF62123AD7200C84692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		856F8FDD2123AD7100C84692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856F8FDE2123AD7100C84692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		856F8FE22123AD7200C84692 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856F8FE32123AD7200C84692 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		856F8FFC2123AD7200C84692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		856F8FFD2123AD7200C84692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		856F8FFF2123AD7200C84692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Minneth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Minneth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		856F90002123AD7200C84692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Minneth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Minneth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		856F90022123AD7200C84692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MinnethTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.MinnethTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minneth.app/Minneth";
+			};
+			name = Debug;
+		};
+		856F90032123AD7200C84692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MinnethTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.MinnethTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minneth.app/Minneth";
+			};
+			name = Release;
+		};
+		856F90052123AD7200C84692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MinnethUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.MinnethUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Minneth;
+			};
+			name = Debug;
+		};
+		856F90062123AD7200C84692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MinnethUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.MinnethUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Minneth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856F8FD12123AD7000C84692 /* Build configuration list for PBXProject "Minneth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856F8FFC2123AD7200C84692 /* Debug */,
+				856F8FFD2123AD7200C84692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856F8FFE2123AD7200C84692 /* Build configuration list for PBXNativeTarget "Minneth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856F8FFF2123AD7200C84692 /* Debug */,
+				856F90002123AD7200C84692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		856F90012123AD7200C84692 /* Build configuration list for PBXNativeTarget "MinnethTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856F90022123AD7200C84692 /* Debug */,
+				856F90032123AD7200C84692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		856F90042123AD7200C84692 /* Build configuration list for PBXNativeTarget "MinnethUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856F90052123AD7200C84692 /* Debug */,
+				856F90062123AD7200C84692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856F8FCE2123AD7000C84692 /* Project object */;
+}
